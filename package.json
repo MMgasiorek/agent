@@ -1,0 +1,38 @@
+{
+  "name": "agent",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.7.5",
+    "@types/uuid": "^10.0.0"
+  },
+  "scripts": {
+    "lecimy": "bun run agent/app.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.46",
+    "@mendable/firecrawl-js": "^1.6.1",
+    "@microsoft/tiktokenizer": "^1.0.8",
+    "@types/table": "^6.0.0",
+    "ai": "^3.4.10",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "openai": "^4.71.0",
+    "promptfoo": "^0.93.0",
+    "table": "^6.9.0",
+    "uuid": "^10.0.0"
+  },
+  "trustedDependencies": [
+    "faiss-node",
+    "markmap-cli",
+    "node-vad",
+    "onnxruntime-node",
+    "protobufjs"
+  ]
+}
