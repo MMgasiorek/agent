@@ -1,4 +1,4 @@
-<img src="assistant/img/logo_blue2.bmp" alt="Logo" width="300"/>
+<img src="agent/img/logo_blue2.bmp" alt="Logo" width="300"/>
 
 # Firecrawl Enhanced Web Information System
 
